@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/NaturalCycles/internal-cli/compare/v1.0.0...v1.0.1) (2020-07-09)
+
+
+### Bug Fixes
+
+* shebang ([8cca5f9](https://github.com/NaturalCycles/internal-cli/commit/8cca5f97ccc94374980e299b44d7b347e19e0033))
+
 # 1.0.0 (2020-07-09)
 
 
