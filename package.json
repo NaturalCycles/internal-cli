@@ -1,0 +1,40 @@
+{
+  "name": "@naturalcycles/internal-cli",
+  "scripts": {
+    "nc-test-cli-debug": "tsn src/bin/nc-test-cli"
+  },
+  "dependencies": {
+    "@naturalcycles/js-lib": "^13.2.1",
+    "@naturalcycles/nodejs-lib": "^10.6.1"
+  },
+  "devDependencies": {
+    "@naturalcycles/dev-lib": "^10.16.0",
+    "@types/node": "^14.0.20",
+    "jest": "^26.1.0"
+  },
+  "files": [
+    "dist",
+    "src",
+    "!src/test",
+    "!src/**/*.test.ts",
+    "!src/**/__snapshots__",
+    "!src/**/__exclude"
+  ],
+  "bin": {
+    "nc-test-cli": "dist/bin/nc-test-cli.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NaturalCycles/internal-cli"
+  },
+  "engines": {
+    "node": ">=12.13.1"
+  },
+  "version": "0.0.0",
+  "description": "",
+  "author": "Natural Cycles Team",
+  "license": "MIT"
+}
