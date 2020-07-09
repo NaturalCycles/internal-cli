@@ -5,10 +5,12 @@
   },
   "dependencies": {
     "@naturalcycles/js-lib": "^13.2.1",
-    "@naturalcycles/nodejs-lib": "^10.6.1"
+    "@naturalcycles/nodejs-lib": "^10.6.1",
+    "inquirer": "^7.3.0"
   },
   "devDependencies": {
     "@naturalcycles/dev-lib": "^10.16.0",
+    "@types/inquirer": "^6.5.0",
     "@types/node": "^14.0.20",
     "jest": "^26.1.0"
   },
