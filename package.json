@@ -1,16 +1,19 @@
 {
   "name": "@naturalcycles/internal-cli",
   "scripts": {
-    "nc-test-cli-debug": "tsn src/bin/nc-test-cli"
+    "nc-test-cli-debug": "DEBUG=nc* tsn src/bin/nc-test-cli"
   },
   "dependencies": {
+    "@naturalcycles/airtable-lib": "^2.9.8",
+    "@naturalcycles/db-lib": "^7.0.3",
     "@naturalcycles/js-lib": "^13.2.1",
     "@naturalcycles/nodejs-lib": "^10.6.1",
+    "dotenv": "^8.2.0",
     "inquirer": "^7.3.0"
   },
   "devDependencies": {
     "@naturalcycles/dev-lib": "^10.16.0",
-    "@types/inquirer": "^6.5.0",
+    "@types/inquirer": "^7.3.0",
     "@types/node": "^14.0.20",
     "jest": "^26.1.0"
   },
