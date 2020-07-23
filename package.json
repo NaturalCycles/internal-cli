@@ -9,7 +9,8 @@
     "@naturalcycles/js-lib": "^13.2.1",
     "@naturalcycles/nodejs-lib": "^10.6.1",
     "dotenv": "^8.2.0",
-    "inquirer": "^7.3.0"
+    "inquirer": "^7.3.0",
+    "type-fest": "^0.16.0"
   },
   "devDependencies": {
     "@naturalcycles/dev-lib": "^10.16.0",
